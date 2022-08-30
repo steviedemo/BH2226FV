@@ -5,8 +5,9 @@ class OctDac {
 public:
 	OctDac(uint8_t ss, uint8_t din, uint8_t sck);
 	void begin();
-	void write(uint8_t chan, uint8_t val);
+	void write(uint8_t chan, uint8_t val); // channel indexing begins with 1
 	void writeWord(uint16_t);
+	void clear();
 private:
 	void writeBit(uint8_t val);
 	void powerDownRelease();

@@ -1,2 +1,4 @@
 OctDac	KEYWORD1
-write  KEYWORD2
+write  	KEYWORD2
+clear	KEYWORD2
+begin 	KEYWORD2
